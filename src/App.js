@@ -7,8 +7,8 @@ import Cat from './Cat';
 
 let catList = [
   "stacey",
-  // "sardine",
-  // "oolong"
+  "sardine",
+  "oolong"
 ]
 
 let renderedCats = catList.map(cat =>
@@ -27,10 +27,11 @@ class App extends Component {
     return (
       <div className="App">
       <Greet
-        url="https://google.com"
+        url="https://www.buzzfeed.com/expresident/best-cat-pictures"
         linkText="click here"
         ></Greet>
         {renderedCats}
+        
       </div>
     );
   }
