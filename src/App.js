@@ -7,8 +7,8 @@ import Cat from './Cat';
 
 let catList = [
   "stacey",
-  "sardine",
-  "oolong"
+  // "sardine",
+  // "oolong"
 ]
 
 let renderedCats = catList.map(cat =>
